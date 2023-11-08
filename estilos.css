@@ -1,0 +1,394 @@
+*{
+    background-color: rgb(27, 26, 26);
+    margin: 0; padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-decoration: none;
+}
+
+body{
+    color:#666666;
+}
+
+h1{
+
+    color:#918e8e;
+    font-size: 50px;
+    margin: -140px 0 -170px;
+    padding: 140px 0 180px;
+}
+#soy{
+    margin-top: -140px;
+    text-align: center;
+    padding: 150px;
+}
+
+#yo {
+margin-top: 50px;
+width: 250px;
+  text-align: center;
+    background-color: #fbdea2;
+    border-radius: 3em 3em 0.2em 0.2em;
+    transition: 0.4s;
+  }
+
+  
+  #yo:hover {
+    transform: scale(1.5, 1.5);
+    z-index: 3;
+  }
+#encabezado p{
+    color:#717070;
+    font-size: 15px;
+    font-weight: bold;
+    margin: 0;
+
+}
+
+#encabezado{
+    background-color: rgb(27, 26, 26);
+    background-size: cover;
+    background-position: center;
+    text-align: center; 
+
+}
+nav{
+    padding: 20px;
+    width: 100%; 
+
+text-align: right;
+}
+
+.contenedor{
+    max-width: 1200px;
+    margin:0 auto;
+}
+
+header{
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(27, 26, 26);}
+
+nav a{
+    color:rgb(213, 207, 207);
+    font-weight: bold;
+    font-size: 18px;
+    padding: 10px 15px;
+    border:transparent 2px solid;
+    transition: 0.2s;
+    margin-left: 10px;
+}
+
+nav a:hover{
+    border:rgb(85, 112, 85) 2px solid;
+}
+
+.negro a{
+    color:black;
+}
+
+/* SOBRE MI  */
+#contenedor{
+
+    padding: 100px 0;
+
+        margin-top: -0px;
+}
+
+#sobreMi {
+    background-color: rgb(27, 26, 26);
+}
+#sobreMi #yoo {
+   width: 250px;
+}
+
+#sobreMi #intro{
+    font-size: 13px;
+    margin-bottom: -5px;
+}
+#sobreMi h2{
+    color: #C8C3C3;
+    font-size: 35px;
+    margin-bottom: 20px;
+}
+
+
+
+#sobreMi article{
+    display: flex;
+    gap:80px;
+}
+
+#sobreMi p{
+    color:#8d8b8b;
+    font-size: 18px;
+    line-height: 28px;
+}
+
+#sobreMi h3{
+    color:#9a9797;
+    font-size: 25px;
+    margin: 120px 0 15px;
+
+}
+
+#sobreMi a{
+    color:rgb(85, 112, 85) ;
+    border-radius: 10px;
+    border:1px solid rgb(85, 112, 85) ;
+    display: inline-block; /* híbrido entre línea y bloque. Sigue siendo de línea pero con características de bloque. */
+    padding: 15px 30px;
+    font-size: 22px;
+    margin-right: 15px;
+    margin-top: 22px;
+    transition: 0.3s;
+}
+
+#sobreMi a span{
+    font-weight: bold;
+    font-size: 50px;
+    line-height: 40px;
+    display: block;
+}
+
+#sobreMi a:hover{
+    border:1px solid rgb(145, 228, 145) ;
+    color:white;
+}
+
+
+/* habilidades */
+
+
+#habilidades{
+margin-top: 20px;
+text-align: center;
+padding: 100px;
+
+}
+#habilidades p{
+
+    color: rgb(71, 86, 71);
+}
+
+#habilidades h2{
+    width: 100%;
+    margin-bottom: 10px;
+    color: rgb(85, 112, 85);
+}
+#habilidades div{
+
+    display: flex;
+    justify-content: center;
+    }
+    
+#lista{
+text-align: left;
+}
+#lista li{
+  margin-top: 18px;
+  color: rgb(67, 85, 67);
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+    }
+#habilidades article{
+
+    text-align: center;
+      width: 32%;
+      margin-left: 29%;
+
+ 
+}
+
+
+
+
+
+
+
+
+/* illustrator */
+
+.tablas{
+    padding: 80px 0 0;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.tablas h2{
+    width: 100%;
+    color:#a29f9f;
+}
+
+#ph article{
+    width: 23%;
+
+}
+
+#ai article{
+    width: 32%;
+
+
+}
+
+#ai img{
+    margin-top: 50px;
+    width: 100%;
+    height: 50vh;
+}
+#paginas article{
+    width: 32%;
+
+
+}
+
+#paginas img{
+    margin-top: 50px;
+    width: 100%;
+    height: 70vh;
+}
+#ph img{
+    margin-top: 50px;
+    width: 100%;
+    height: 40vh;
+}
+
+.tablas h3{
+    font-size: 25px;
+    color:#a89a9a;
+    margin: 15px 0 10px;
+}
+
+.tablas p{
+   padding: 0 50px; 
+   margin-bottom: 15px;
+}
+
+
+
+
+.tablas a{
+    color:rgb(85, 112, 85) ;
+    font-weight: bold;
+    border-radius: 10px;
+    display: inline-block;
+    border:rgb(85, 112, 85)  1px solid;
+    padding: 10px 60px;
+    margin-top: 20px;
+    font-size: 18px;
+    transition: 0.2s;
+    margin-bottom: 40px;
+}
+
+.tablas a:hover{
+background-color: rgb(85, 112, 85) ;
+color: white;
+}
+
+#Ppersonales{
+    text-align: center;
+    font-size: 35px;
+}
+
+footer{
+	text-align: center;
+	background-color:rgb(85, 112, 85);
+
+	color: #FFFFFF;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* segunda página */
+
+.gris{
+    background-color: #f5f5f9;
+}
+
+#pedido{
+    padding: 60px 0;
+}
+
+form, .datos, .boton_flex{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+fieldset{
+    border: none;
+    margin-bottom: 50px;
+}
+
+legend{
+    color: #ff7354;
+    font-weight: bold;
+    font-size: 20px;
+    margin-bottom: 30px;
+    width: 100%;
+}
+
+.datos{
+    width: 100%;
+}
+
+.datos div, .pago{
+    width: 32%;
+}
+
+.datos input, select, textarea{
+    width: 100%;
+    padding: 10px;
+    border-radius: 3px;
+    border:1px solid #9e9e9e;
+    margin-top: 5px;
+}
+
+.pago input{
+    margin-bottom: 15px;
+    accent-color: #ff7354;
+}
+
+.final{
+    width: 66%;
+}
+
+
+textarea{
+    resize: none;
+    height: 70px;
+    margin-bottom: 15px;
+}
+
+select{
+    margin-top: 20px;
+}
+
+button{
+    background-color: #ff7354;
+    color:white;
+    font-weight: bold;
+    border-radius: 10px;
+    padding: 12px 40px;
+    cursor: pointer;
+    border: 1px solid #ff7354;
+    transition: 0.3s;
+}
+
+button:hover{
+    background-color: transparent;
+    color:#ff7354;
+}
